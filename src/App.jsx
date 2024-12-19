@@ -3,7 +3,7 @@ import "./index.css";
 import { useState } from "react";
 
 function App() {
-  const [puppies, setPuppies] = useState(puppyList);
+  const [puppies] = useState(puppyList);
   const [featPupId, setFeatPupId] = useState(null);
   console.log("puppyList: ", puppyList);
   const featuredPup = puppies.find((pup) => pup.id === featPupId)
