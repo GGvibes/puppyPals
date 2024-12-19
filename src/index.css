@@ -13,6 +13,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.App {
+  display: grid;
+  position: absolute;
+  left: 40%;
+  place-items: center;
+  color: #e6baea;
+  ;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
