@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       {featPupId && (
-        <div>
+        <div className="featured-puppy">
           <h2>{featuredPup.name}</h2>
           <ul>
             <li>Age: {featuredPup.age}</li>
@@ -27,5 +27,7 @@ function App() {
     </div>
   );
 }
+
+
 
 export default App;
